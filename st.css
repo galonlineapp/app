@@ -1,0 +1,159 @@
+*{padding: 0;margin: 0;}
+
+#xcont{
+    display: flex;
+    align-items: flex-start;
+    min-height: 600px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#xleft,#xright{
+    width:50%;
+    
+}
+
+#xleft img{
+    max-width:800px;
+    width: 100%;
+}
+
+#xright .sup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 18%;
+    margin-top: 30px;
+}
+#xright .inf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#xright .xfk{
+    width:346px;
+    height: 633px;
+    background-image: url(111.svg);
+}
+#xright #xfrm1{
+    width:346px;
+    height: 633px;
+    background-image: url(222.svg);
+}
+
+#xright .sup img{ 
+    width: 120px;
+}
+#xright .sup img:nth-child(2){
+    width: 100px;
+    
+}
+
+#xright .inf input{
+    position: relative;
+    text-align: left;
+    align-self: flex-start;
+    display: inline-block;
+    width: 90%;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #777;
+    user-select: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+}
+
+#xright .inf #xinpt{
+    top: 127px;
+    left: -12px;
+}
+#xright .inf #xinpt2{
+    top: 182px;
+    left: -12px;
+}
+#xright .inf #xinpt3{
+    top: 237px;
+    left: -12px;
+}
+#xright .inf #xinpt4{
+    top: 170px;
+    left: -12px;
+}
+
+
+#xright .inf .btn{
+    width: 346px;
+    height: 42px;
+    padding-top: 0px;
+    position: relative;
+    border-radius: 4.5px;
+    background: #ff6601;
+    color: #fff;
+    font-family: sans-serif;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+}
+
+#xright .inf .btn1{
+    top: 305px;
+}
+
+#xright .inf .btn2{
+    top: 248px;
+}
+
+/*222*/
+#xright .xfk2{
+    width:346px;
+    height: 633px;
+    background-image: url(333.svg);
+}
+#xfrm2{
+    background-image: url(444.svg);
+    width:346px;
+    height: 633px;
+}
+
+
+/*333*/
+#xright .xfk3{
+    width:346px;
+    height: 633px;
+    background-image: url(555.svg);
+}
+#xfrm3{
+    background-image: url(666.svg);
+    width:346px;
+    height: 633px;
+}
+
+/*444*/
+#xright .xfk4{
+    background-image: url(777.svg);
+    width:346px;
+    height: 232px;
+}
+
+
+
+
+@media screen and (max-width:1100px){
+    #xleft{
+        display: none;
+    }
+    #xcont{
+        justify-content:center!important;
+    }
+    #xright .sup {
+        margin-left: 30px;
+    }
+    #xright{
+        width: 100%;
+    }
+}
